@@ -358,6 +358,7 @@ type SegmentTemplate struct {
 	AdaptationSet          *AdaptationSet   `xml:"-"`
 	SegmentTimeline        *SegmentTimeline `xml:"SegmentTimeline,omitempty"`
 	PresentationTimeOffset *uint64          `xml:"presentationTimeOffset,attr,omitempty"`
+	AvailabilityTimeOffset *uint64          `xml:"availabilityTimeOffset,attr,omitempty"`
 	Duration               *int64           `xml:"duration,attr"`
 	Initialization         *string          `xml:"initialization,attr"`
 	Media                  *string          `xml:"media,attr"`
